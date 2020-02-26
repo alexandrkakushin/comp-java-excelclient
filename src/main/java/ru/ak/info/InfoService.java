@@ -52,6 +52,6 @@ public class InfoService extends ExcelService {
     }
 
     private String description_1_0_0_1() {
-        return "Первая версия компоненты";
+        return "Добавлена возможность установки формул";
     }
 }

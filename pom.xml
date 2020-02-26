@@ -52,9 +52,14 @@
         </dependency>                      
         <dependency>
             <groupId>org.apache.poi</groupId>
-            <artifactId>poi</artifactId>
+            <artifactId>poi-ooxml</artifactId>
             <version>${apachepoi.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>${apachepoi.version}</version>
+        </dependency>        
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

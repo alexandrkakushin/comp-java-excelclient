@@ -1,8 +1,8 @@
 @XmlSchema(attributeFormDefault = XmlNsForm.QUALIFIED,
         elementFormDefault = XmlNsForm.QUALIFIED,
-        namespace = "http://ldap.ak.ru/",
+        namespace = "http://excel.ak.ru/",
         xmlns = {
-                @XmlNs(namespaceURI = "http://ldap.ak.ru/", prefix = ""),
+                @XmlNs(namespaceURI = "http://excel.ak.ru/", prefix = ""),
                 @XmlNs(namespaceURI = "http://www.w3.org/2001/XMLSchema-instance", prefix = "xsi"),
                 @XmlNs(namespaceURI = "http://www.w3.org/2001/XMLSchema", prefix = "xs")})
 package ru.ak.info;
