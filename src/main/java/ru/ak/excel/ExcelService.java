@@ -111,8 +111,7 @@ public class ExcelService {
 
         ExcelFile excelFile = getExcelFile(token);
         if (excelFile != null) {
-            try {
-                FileOutputStream fos = new FileOutputStream(excelFile.getFileName());
+            try (FileOutputStream fos = new FileOutputStream(excelFile.getFileName())) {
                 excelFile.getWorkbook().write(fos);
 
             } catch (IOException ex) {
