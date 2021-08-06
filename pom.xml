@@ -31,7 +31,7 @@
 
         <jaxb-api.version>2.3.1</jaxb-api.version>        
         <jaxws.version>2.3.2</jaxws.version>
-        <lombok.version>1.18.8</lombok.version>
+        <lombok.version>1.18.20</lombok.version>
         <apachepoi.version>4.1.2</apachepoi.version>
 
         <maven-compiler.version>3.8.0</maven-compiler.version>
