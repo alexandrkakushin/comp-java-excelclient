@@ -30,7 +30,7 @@
         <finalname>excelclient</finalname>
 
         <jaxb-api.version>2.3.1</jaxb-api.version>        
-        <lombok.version>1.18.20</lombok.version>
+        <lombok.version>1.18.22</lombok.version>
         <jaxws.version>2.3.5</jaxws.version>
         <apachepoi.version>5.1.0</apachepoi.version>
 
